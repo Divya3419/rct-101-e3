@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const handleClick=()=>{
 
-if(!isAuth){
+if(isAuth){
   <Link to="/login">Logout</Link>
 }
 
